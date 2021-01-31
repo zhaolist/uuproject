@@ -1,0 +1,234 @@
+@import "reset.css";
+
+
+// -----------nav----------------
+.nav {
+  width: 7.5rem;
+  height: 1.76rem;
+  margin-bottom: 0.2rem;
+  padding-top: 0.2rem;
+
+  background-image: linear-gradient(180deg, #ff6040 0%, #ff8a80 100%);
+  box-shadow: 0 0.04rem 0.12rem 0 rgba(255, 149, 128, 0.5);
+
+  .top {
+    display: flex;
+    text-align: center;
+
+    .icon-dingwei1 {
+      font-size: 0.44rem;
+      color: #fff;
+      margin: 0 0.26rem;
+      line-height: 0.6rem;
+    }
+    img {
+      width: 1.82rem;
+      height: 0.48rem;
+    }
+
+    .search {
+      display: flex;
+      width: 3.4rem;
+      height: 0.64rem;
+      margin: 0 0.26rem;
+      span {
+        position: relative;
+        display: inline-block;
+        width: 0.64rem;
+        height: 0.64rem;
+        background-color: #fff;
+        .icon-fangdajing {
+          font-size: 0.32rem;
+          color: #999;
+          position: absolute;
+          top: 0.18rem;
+          left: 0.16rem;
+        }
+      }
+      input {
+        width: 2.76rem;
+        border: none;
+        background-color: #fff;
+      }
+    }
+    .icon-dianpu {
+      font-size: 0.4rem;
+      color: #fff;
+      line-height: 0.6rem;
+    }
+  }
+  .buttom {
+    position: relative;
+    margin-top: 0.6rem;
+    display: flex;
+    color: #fff;
+    .tuijian {
+      display: inline-block;
+      width: 0.66rem;
+      height: 0.48rem;
+      margin-left: 0.2rem;
+      font-size: 0.32rem;
+    }
+    .line {
+      display: inline-block;
+      position: absolute;
+      bottom: 0rem;
+      left: 0.34rem;
+      width: 0.4rem;
+      height: 0.06rem;
+      background-color: #fff;
+    }
+    ul {
+      font-size: 0.28rem;
+      li {
+        color: #fff3f2;
+        float: left;
+        margin-left: 0.52rem;
+      }
+    }
+    .yinying {
+      display: inline-block;
+      width: 0.02rem;
+      height: 0.3rem;
+      border-left: 0.01rem solid rgb(228, 30, 30);
+      margin: 0.08rem;
+      //   box-shadow: -0.3rem 3px #ff8a80;
+      position: absolute;
+      top: -0.06rem;
+      right: 1rem;
+    }
+    .fenlei {
+      font-size: 0.28rem;
+      right: 0.12rem;
+      top: 0;
+      position: absolute;
+
+      .icon-fenlei {
+        margin-right: 0.06rem;
+        font-size: 0.32rem;
+      }
+    }
+  }
+}
+
+// ------------shop---------------------
+.shop {
+  height: 3.5rem;
+  margin: 0 auto;
+  width: 7.1rem;
+  //   background-color: #9c9897;
+  display: flex;
+  justify-content: space-between;
+  .tao {
+    position: relative;
+    .l-bg {
+      position: absolute;
+      height: 3.5rem;
+      width: 3.5rem;
+      background: url(../images/index/big.png) no-repeat;
+    }
+    .left {
+      position: absolute;
+      height: 3.5rem;
+      width: 3.5rem;
+      z-index: 99;
+      // background-color: #ff8a80;
+
+      .l-top {
+        //   background-color: #ff6040;
+        display: flex;
+        margin-top: 0.2rem;
+        justify-content: space-between;
+        h2 {
+          font-size: 16px;
+          color: #85a642;
+          line-height: 16px;
+          margin: 0 0.5rem 0 0.2rem;
+        }
+        h3 {
+          font-size: 10px;
+          color: #333333;
+          line-height: 16px;
+          text-align: right;
+          margin-right: 0.2rem;
+        }
+      }
+      p {
+        font-size: 10px;
+        color: #b1cc7a;
+        line-height: 10px;
+        margin: 0.2rem 0 0.2rem 0.2rem;
+      }
+      .time {
+        span {
+          display: inline-block;
+          width: 0.32rem;
+          height: 0.36rem;
+          background-image: linear-gradient(180deg, #85a642 0%, #b1cc7a 100%);
+          border-radius: 1px;
+          margin-left: 0.2rem;
+          font-size: 14px;
+          line-height: 0.36rem;
+          color: #ffffff;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    .top,
+    .bottom {
+      height: 1.7rem;
+      width: 3.3rem;
+      padding-left: 0.2rem;
+      //   background: url(../images/index/small.png) no-repeat;
+      h1 {
+        font-size: 16px;
+        margin-top: 0.2rem;
+      }
+      p {
+        font-size: 10px;
+        margin: 0.2rem 0 0.14rem 0;
+      }
+      span {
+        display: inline-block;
+        width: 1.34rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        font-size: 10px;
+        color: #ffffff;
+
+        border-radius: 2px 12px 12px 2px;
+        .icon-youjiantou {
+          font-size: 10px;
+        }
+      }
+    }
+    .top {
+      h1 {
+        color: #ff6040;
+      }
+      p {
+        color: #ff9580;
+      }
+      span {
+        background-image: linear-gradient(180deg, #ff6040 0%, #ff9f80 100%);
+      }
+    }
+    .bottom {
+      h1 {
+        color: #af40ff;
+      }
+      p {
+        color: #ca80ff;
+      }
+      span {
+        background-image: linear-gradient(180deg, #af40ff 0%, #f58cff 100%);
+      }
+    }
+  }
+}

@@ -1,0 +1,214 @@
+@import "reset.css";
+.nav {
+  width: 7.5rem;
+  height: 1.76rem;
+  margin-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  background-image: linear-gradient(180deg, #ff6040 0%, #ff8a80 100%);
+  box-shadow: 0 0.04rem 0.12rem 0 rgba(255, 149, 128, 0.5);
+}
+.nav .top {
+  display: flex;
+  text-align: center;
+}
+.nav .top .icon-dingwei1 {
+  font-size: 0.44rem;
+  color: #fff;
+  margin: 0 0.26rem;
+  line-height: 0.6rem;
+}
+.nav .top img {
+  width: 1.82rem;
+  height: 0.48rem;
+}
+.nav .top .search {
+  display: flex;
+  width: 3.4rem;
+  height: 0.64rem;
+  margin: 0 0.26rem;
+}
+.nav .top .search span {
+  position: relative;
+  display: inline-block;
+  width: 0.64rem;
+  height: 0.64rem;
+  background-color: #fff;
+}
+.nav .top .search span .icon-fangdajing {
+  font-size: 0.32rem;
+  color: #999;
+  position: absolute;
+  top: 0.18rem;
+  left: 0.16rem;
+}
+.nav .top .search input {
+  width: 2.76rem;
+  border: none;
+  background-color: #fff;
+}
+.nav .top .icon-dianpu {
+  font-size: 0.4rem;
+  color: #fff;
+  line-height: 0.6rem;
+}
+.nav .buttom {
+  position: relative;
+  margin-top: 0.6rem;
+  display: flex;
+  color: #fff;
+}
+.nav .buttom .tuijian {
+  display: inline-block;
+  width: 0.66rem;
+  height: 0.48rem;
+  margin-left: 0.2rem;
+  font-size: 0.32rem;
+}
+.nav .buttom .line {
+  display: inline-block;
+  position: absolute;
+  bottom: 0rem;
+  left: 0.34rem;
+  width: 0.4rem;
+  height: 0.06rem;
+  background-color: #fff;
+}
+.nav .buttom ul {
+  font-size: 0.28rem;
+}
+.nav .buttom ul li {
+  color: #fff3f2;
+  float: left;
+  margin-left: 0.52rem;
+}
+.nav .buttom .yinying {
+  display: inline-block;
+  width: 0.02rem;
+  height: 0.3rem;
+  border-left: 0.01rem solid #e41e1e;
+  margin: 0.08rem;
+  position: absolute;
+  top: -0.06rem;
+  right: 1rem;
+}
+.nav .buttom .fenlei {
+  font-size: 0.28rem;
+  right: 0.12rem;
+  top: 0;
+  position: absolute;
+}
+.nav .buttom .fenlei .icon-fenlei {
+  margin-right: 0.06rem;
+  font-size: 0.32rem;
+}
+.shop {
+  height: 3.5rem;
+  margin: 0 auto;
+  width: 7.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.shop .tao {
+  position: relative;
+}
+.shop .tao .l-bg {
+  position: absolute;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: url(../images/index/big.png) no-repeat;
+}
+.shop .tao .left {
+  position: absolute;
+  height: 3.5rem;
+  width: 3.5rem;
+  z-index: 99;
+}
+.shop .tao .left .l-top {
+  display: flex;
+  margin-top: 0.2rem;
+  justify-content: space-between;
+}
+.shop .tao .left .l-top h2 {
+  font-size: 16px;
+  color: #85a642;
+  line-height: 16px;
+  margin: 0 0.5rem 0 0.2rem;
+}
+.shop .tao .left .l-top h3 {
+  font-size: 10px;
+  color: #333333;
+  line-height: 16px;
+  text-align: right;
+  margin-right: 0.2rem;
+}
+.shop .tao .left p {
+  font-size: 10px;
+  color: #b1cc7a;
+  line-height: 10px;
+  margin: 0.2rem 0 0.2rem 0.2rem;
+}
+.shop .tao .left .time span {
+  display: inline-block;
+  width: 0.32rem;
+  height: 0.36rem;
+  background-image: linear-gradient(180deg, #85a642 0%, #b1cc7a 100%);
+  border-radius: 1px;
+  margin-left: 0.2rem;
+  font-size: 14px;
+  line-height: 0.36rem;
+  color: #ffffff;
+  text-align: center;
+}
+.shop .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shop .right .top,
+.shop .right .bottom {
+  height: 1.7rem;
+  width: 3.3rem;
+  padding-left: 0.2rem;
+}
+.shop .right .top h1,
+.shop .right .bottom h1 {
+  font-size: 16px;
+  margin-top: 0.2rem;
+}
+.shop .right .top p,
+.shop .right .bottom p {
+  font-size: 10px;
+  margin: 0.2rem 0 0.14rem 0;
+}
+.shop .right .top span,
+.shop .right .bottom span {
+  display: inline-block;
+  width: 1.34rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 10px;
+  color: #ffffff;
+  border-radius: 2px 12px 12px 2px;
+}
+.shop .right .top span .icon-youjiantou,
+.shop .right .bottom span .icon-youjiantou {
+  font-size: 10px;
+}
+.shop .right .top h1 {
+  color: #ff6040;
+}
+.shop .right .top p {
+  color: #ff9580;
+}
+.shop .right .top span {
+  background-image: linear-gradient(180deg, #ff6040 0%, #ff9f80 100%);
+}
+.shop .right .bottom h1 {
+  color: #af40ff;
+}
+.shop .right .bottom p {
+  color: #ca80ff;
+}
+.shop .right .bottom span {
+  background-image: linear-gradient(180deg, #af40ff 0%, #f58cff 100%);
+}
